@@ -17,4 +17,4 @@ function mapLetters(str){
 };
 
     let str=prompt("createObject:");
-    alert(mapLetters(str));
+   alert(JSON.stringify(mapLetters(str)));
